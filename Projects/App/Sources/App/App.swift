@@ -1,5 +1,5 @@
 import SwiftUI
-import Root
+import RootFeature
 
 @main
 struct _App: App {
