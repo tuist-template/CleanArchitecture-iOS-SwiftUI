@@ -79,7 +79,7 @@ public extension Project {
                 "ENABLE_TESTS": .boolean(true),
             ]),
             sources: demoSources,
-            resources: ["Demo/Resources/**"],
+            resources: nil,
             scripts: scripts,
             dependencies: [
                 .target(name: name)
