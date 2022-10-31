@@ -3,7 +3,7 @@ import ProjectDescription
 import UtilityPlugin
 
 let project = Project.makeModule(
-    name: "Root",
+    name: "RootFeature",
     product: .staticFramework,
     dependencies: [
         

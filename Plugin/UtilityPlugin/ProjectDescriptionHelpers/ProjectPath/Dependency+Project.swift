@@ -10,7 +10,7 @@ public extension TargetDependency {
 }
 
 public extension TargetDependency.Project.Feature {
-    static let Root = TargetDependency.feature(name: "Root")
+    static let RootFeature = TargetDependency.feature(name: "RootFeature")
 }
 
 public extension TargetDependency.Project.Module {

@@ -28,7 +28,7 @@ let targets: [Target] = [
         resources: ["Resources/**"],
         scripts: scripts,
         dependencies: [
-            .Project.Feature.Root,
+            .Project.Feature.RootFeature,
             .Project.Service.Data
         ],
         settings: .settings(base: Environment.baseSetting)
