@@ -23,7 +23,12 @@ let targets: [Target] = [
         productName: Environment.appName,
         bundleId: "\(Environment.organizationName).\(Environment.targetName)",
         deploymentTarget: Environment.deploymentTarget,
-        infoPlist: .default,
+        infoPlist: .extendingDefault(with: [
+            "CFBundleShortVersionString": "1.0",
+            "CFBundleVersion": "1",
+            "UIMainStoryboardFile": "",
+            "UILaunchStoryboardName": "LaunchScreen"
+            ]),
         sources: ["Sources/**"],
         resources: ["Resources/**"],
         scripts: scripts,
